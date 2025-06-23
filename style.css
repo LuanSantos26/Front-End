@@ -29,3 +29,19 @@
   height: 300px; /* height serve para definir a altura da imagem */
   width: 300px; /* width serve para deifinir a largura da imagem */
 }
+.botao {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  padding: 10px; /* padding serve para adicionar espaçamento interno ao botão */
+  border-radius: 5px; /* border-radius serve para arredondar os cantos do botão */
+  cursor: pointer; /* cursor: pointer serve para mudar o cursor quando passar o mouse sobre o botão */
+  text-align: center; /* text-align: center serve para centralizar o texto dentro do botão */
+  color: black; /* color serve para definir a cor do texto do botão */
+  font-size: 15px; /* font-size serve para definir o tamanho da fonte do botão */
+  font-weight: bold; /* font-weight serve para definir o peso da fonte do botão */
+}
+body {
+  background-color: seagreen; /* color serve para definir a cor do texto do corpo da página */
+}
