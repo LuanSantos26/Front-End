@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(143, 204, 223);
+}
 .apresentaçao {
   color: red;
   font-size: 20px;
@@ -28,6 +31,9 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra à imagem */
   height: 300px; /* height serve para definir a altura da imagem */
   width: 300px; /* width serve para deifinir a largura da imagem */
+  max-width: 100%; /* max-width: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
+  max-height: 100%; /* max-height: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
+  object-fit: cover; /* object-fit: cover serve para garantir que a imagem preencha
 }
 .botao {
   display: block;
@@ -41,7 +47,4 @@
   color: black; /* color serve para definir a cor do texto do botão */
   font-size: 15px; /* font-size serve para definir o tamanho da fonte do botão */
   font-weight: bold; /* font-weight serve para definir o peso da fonte do botão */
-}
-body {
-  background-color: seagreen; /* color serve para definir a cor do texto do corpo da página */
 }
