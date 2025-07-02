@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(143, 204, 223);
+  background-color: rgb(255, 255, 255);
 }
 .apresentaçao {
   color: red;
@@ -15,7 +15,7 @@ body{
 .segundaclass {
   font-size: 20px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   font-style: italic;
   background-color: rgb(220, 230, 233);
   border: 2px solid black;
@@ -44,7 +44,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
-  padding: 10px;  padding /*serve para adicionar espaçamento interno ao botão */
+  padding: 10px; /* serve para adicionar espaçamento interno ao botão */
   border-radius: 5px; /* border-radius serve para arredondar os cantos do botão */
   cursor: pointer; /* cursor: pointer serve para mudar o cursor quando passar o mouse sobre o botão */
   text-align: center; /* text-align: center serve para centralizar o texto dentro do botão */
