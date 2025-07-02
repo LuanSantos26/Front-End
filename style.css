@@ -13,7 +13,6 @@ body{
 }
 
 .segundaclass {
-  color: blue;
   font-size: 20px;
   font-weight: bold;
   text-decoration: underline;
@@ -33,14 +32,19 @@ body{
   width: 300px; /* width serve para deifinir a largura da imagem */
   max-width: 100%; /* max-width: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
   max-height: 100%; /* max-height: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
-  object-fit: cover; /* object-fit: cover serve para garantir que a imagem preencha
+  object-fit: cover; /* object-fit: cover serve para garantir que a imagem preencha */
 }
+
+.negrito {
+  font-size: 20px; /* font-size serve para definir o tamanho da fonte do texto em negrito */
+}
+
 .botao {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
-  padding: 10px; /* padding serve para adicionar espaçamento interno ao botão */
+  padding: 10px;  padding /*serve para adicionar espaçamento interno ao botão */
   border-radius: 5px; /* border-radius serve para arredondar os cantos do botão */
   cursor: pointer; /* cursor: pointer serve para mudar o cursor quando passar o mouse sobre o botão */
   text-align: center; /* text-align: center serve para centralizar o texto dentro do botão */
