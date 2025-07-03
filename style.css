@@ -34,6 +34,14 @@ body{
   max-height: 100%; /* max-height: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
   object-fit: cover; /* object-fit: cover serve para garantir que a imagem preencha */
 }
+.meme2{
+  display:block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra à imagem */
+  margin:auto; /* text-align: center serve para centralizar a imagem horizontalmente */
+  padding: 3px; /* padding serve para adicionar espaçamento interno à imagem */
+  margin-top: 10px; /* margin-top serve para adicionar espaçamento acima da imagem */
+  margin-bottom: 10px; /* margin-bottom serve para adicionar espaçamento abaixo da imagem
+}
 
 .negrito {
   font-size: 20px; /* font-size serve para definir o tamanho da fonte do texto em negrito */
