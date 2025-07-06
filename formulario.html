@@ -38,6 +38,17 @@
         <input type="checkbox" name="item3" value="Fogão">
         <label for="item3">Fogão</label>
         <br><br>
+        <h2>Escolha uma cor</h2>
+        <select name="cores"><!-- O select é usado para criar um campo de entrada de seleção, onde o usuário pode escolher uma opção de uma lista -->
+            <option value="" disabled selected>Selecione uma cor</option><!-- O option com value vazio e disabled é usado para criar uma opção de seleção padrão, que não pode ser selecionada -->
+            <option value="preto">Preto</option><!-- O value é usado para definir o valor da opção, que será enviado quando o formulário for enviado -->
+            <option value="branco">Branco</option>
+            <option value="vermelho">Vermelho</option><!-- O option é usado para criar uma opção dentro do select -->
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+            <option value="amarelo">Amarelo</option>
+        </select>
+        <br><br>
         <input type="submit" value="Enviar"><!-- O type submit é usado para criar um botão de envio, quando clicado, o formulário será enviado -->
     </form><hr><br>
     <a href="index.html">Voltar para a página inicial</a>
