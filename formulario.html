@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form >
+        <!-- O label é usado para criar um rótulo para o campo de entrada -->
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome" required><!-- O input é usado para criar um campo de entrada de texto, required siginifica que o campo é obrigatório -->
+        <br><br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite seu email" required><!-- O type email é usado para criar um campo de entrada de email, o navegador irá validar o formato do email -->
+        <br><br>
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha" required><!-- O type password é usado para criar um campo de entrada de senha, o texto digitado será oculto -->
+        <br><br>
+        <h2>Animal de estimação</h2>
+        <input type="radio" name="animal" value="cachorro" id="cachorro" required><!-- O type radio é usado para criar um campo de entrada de seleção única, onde o usuário pode escolher apenas uma opção -->
+        <label for="cachorro">Cachorro</label>
+        <br><br>
+        <input type="radio" name="animal" value="gato" id="gato" required><!-- Radio serve para selecionar apenas uma opção -->
+        <label for="gato">Gato</label>
+        <br><br>
+        <input type="radio" name="animal" value="passaro" id="passaro" required>
+        <label for="passaro">Pássaro</label>
+        <br><br>
+        <h2>Oque voce tem em casa ? </h2>
+        <input type="checkbox" name="item1" value="Tv"><!-- O type checkbox é usado para criar um campo de entrada de seleção múltipla, onde o usuário pode escolher várias opções -->
+        <label for="item1">TV</label>
+        <br><br>
+        <input type="checkbox" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label>
+        <br><br>
+        <input type="checkbox" name="item3" value="Fogão">
+        <label for="item3">Fogão</label>
+        <br><br>
+        <input type="submit" value="Enviar"><!-- O type submit é usado para criar um botão de envio, quando clicado, o formulário será enviado -->
+    </form><hr><br>
+    <a href="index.html">Voltar para a página inicial</a>
+</body>
+</html>  
