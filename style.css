@@ -2,17 +2,19 @@ body{
   background-color: rgb(255, 255, 255);
 }
 .apresentaçao {
-  color: red;
-  font-size: 20px;
+  overflow: hidden; /* overflow: hidden serve para esconder o conteúdo que ultrapassa o tamanho do contêiner */
+  background-color: rgb(220, 230, 233);
+  border: 2px solid black;
+  font-size: 24px;
   font-weight: bold;
   text-decoration: underline;
   font-style: italic;
-  background-color: rgb(220, 230, 233);
-  border: black 2px solid;
-  padding: 10px;
+  text-align: center
 }
 
-.segundaclass {
+.apresentaçao2 {
+  overflow: hidden; /* overflow: hidden serve para esconder o conteúdo que ultrapassa o tamanho do contêiner */
+  background-color: rgb(220, 230, 233);
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -20,6 +22,7 @@ body{
   background-color: rgb(220, 230, 233);
   border: 2px solid black;
   padding: 10px;
+  text-align: center
 }
 .meme1 {
   display: block; /* display: block serve para exibir a imagem como um bloco */
@@ -33,6 +36,8 @@ body{
   max-width: 100%; /* max-width: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
   max-height: 100%; /* max-height: 100% serve para garantir que a imagem não ultrapasse o tamanho do contêiner */
   object-fit: cover; /* object-fit: cover serve para garantir que a imagem preencha */
+  object-position: center; /* object-position: center serve para centralizar a imagem dentro do contêiner */
+  padding: 3px; /* padding serve para adicionar espaçamento interno à imagem */
 }
 .meme2{
   display:block;
@@ -40,13 +45,22 @@ body{
   margin:auto; /* text-align: center serve para centralizar a imagem horizontalmente */
   padding: 3px; /* padding serve para adicionar espaçamento interno à imagem */
   margin-top: 10px; /* margin-top serve para adicionar espaçamento acima da imagem */
-  margin-bottom: 10px; /* margin-bottom serve para adicionar espaçamento abaixo da imagem
+  margin-bottom: 10px; /* margin-bottom serve para adicionar espaçamento abaixo da imagem*/
 }
 
 .negrito {
   font-size: 20px; /* font-size serve para definir o tamanho da fonte do texto em negrito */
 }
-
+.section1{
+  float: left;
+            width: 50%;
+            padding: 15px;
+}
+.section2{
+  float: left;
+            width: 50%;
+            padding: 15px;
+}
 .botao {
   display: block;
   margin-left: auto;
@@ -60,3 +74,48 @@ body{
   font-size: 15px; /* font-size serve para definir o tamanho da fonte do botão */
   font-weight: bold; /* font-weight serve para definir o peso da fonte do botão */
 }
+.tabela {
+  width: 100%; /* width serve para definir a largura da tabela */
+  color: #333; /* color serve para definir a cor do texto da tabela */
+}
+.iframe{
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra ao iframe */
+  display: block; /* display: block serve para exibir o iframe como um bloco */
+  margin-left: auto; /* margin-left: auto serve para centralizar o iframe horizontalmente */
+  margin-right: auto; /* margin-right: auto serve para centralizar o iframe horizontalmente */
+  padding: 10px; /* padding serve para adicionar espaçamento interno ao iframe */
+}
+*{
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+        body {
+            margin: 0;
+        }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+        .menu a{
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block; 
+            text-decoration: none; 
+           
+        }
+        .coluna-50 {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+        footer{
+            text-align: center;
+        }

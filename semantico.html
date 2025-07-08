@@ -5,40 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> HTML Semântico</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        .header{
-            background-color: gray;
-            padding: 20px;
-            text-align: center;
-        }
-        body {
-            margin: 0;
-        }
-        .menu{
-            background-color: #333;
-            overflow: hidden;
-            text-align: center;
-        }
-        .menu a{
-            color: white;
-            padding: 14px 16px;
-            float: left;
-            display: block; 
-            text-decoration: none; 
-           
-        }
-        .coluna-50 {
-            float: left;
-            width: 50%;
-            padding: 15px;
-        }
-        footer{
-            text-align: center;
-        }
-    </style>
+    
 </head>
 <body>
     <header class="header"> <!-- Cabeçalho da página, header é um elemento semântico que representa o cabeçalho de uma seção ou página -->
@@ -54,7 +21,7 @@
     </nav>
     <section class="coluna-50"><!-- Seção de conteúdo, section é um elemento semântico que representa uma seção genérica de um documento -->
         <h2> Coluna</h2>
-        <article><!-- Artigo, article é um elemento semântico que representa um conteúdo independente -->
+        <article class="artigo"><!-- Artigo, article é um elemento semântico que representa um conteúdo independente -->
             <h2>Artigo</h2>
             <p>Este é um exemplo de artigo. O elemento article é usado para encapsular conteúdo que pode ser distribuído de forma independente, como notícias, postagens de blog ou comentários.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ducimus sed accusamus similique nihil dicta, veniam facere consequatur molestiae animi atque magnam architecto et ad quis explicabo ratione repellat fugiat?</p>
