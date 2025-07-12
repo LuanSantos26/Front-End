@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="/style.css" />
+    <!-- O link rel="stylesheet" é usado para vincular um arquivo CSS externo ao HTML -->
 </head>
 <body>
     <h1>Formulário de Cadastro</h1>
-    <form >
+   
+    <form class="forms" ><!-- O form é usado para criar um formulário, action é a URL para onde os dados serão enviados e method é o método HTTP usado para enviar os dados -->
         <!-- O label é usado para criar um rótulo para o campo de entrada -->
         <label for="campo_nome">Nome:</label>
         <input id="campo_nome" type="text" placeholder="Digite seu nome" required><!-- O input é usado para criar um campo de entrada de texto, required siginifica que o campo é obrigatório -->
@@ -55,6 +58,7 @@
 
         <input type="submit" value="Enviar"><!-- O type submit é usado para criar um botão de envio, quando clicado, o formulário será enviado -->
     </form><hr><br>
-    <button><a href="index.html">Voltar para a página inicial</a></button>
+    
+    <button class="botao"><a href="index.html">Voltar para a página inicial</a></button><br><br>
 </body>
 </html>  

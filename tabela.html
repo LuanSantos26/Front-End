@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <p>As tabelas são usadas para exibir dados em formato tabular, com linhas e colunas. Elas são úteis para organizar informações de forma clara e estruturada.</p>
+    <p>As tabelas são compostas por linhas (tr), colunas (td    ) e cabeçalhos (th). O elemento thead é usado para agrupar o cabeçalho da tabela, tbody para o corpo e tfoot para o rodapé.</p>
+    <table class="tabela" width="100%" border="1" > <!-- table é usado para criar uma tabela, width é usado para definir a largura da tabela, border é usado para definir a borda da tabela -->
+        <caption>Tabela de exemplo</caption> <!-- caption é usado para criar um título para a tabela -->
+        <thead><!-- thead é usado para criar o cabeçalho da tabela -->
+            <tr>
+                <th>Coluna 1</th> <!-- th é usado para criar um cabeçalho de tabela -->
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+                <th>Coluna 4</th>
+            </tr>
+        </thead>
+        <tbody><!-- tbody é usado para criar o corpo da tabela -->
+            <tr>
+                <td>Dado 1</td> <!-- td é usado para criar uma célula de tabela -->
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+                <td>Dado 4</td>
+            </tr>
+            <tr>
+                <td>Dado 5</td>
+                <td>Dado 6</td>
+                <td>Dado 7</td>
+                <td>Dado 8</td>
+            </tr>
+        </tbody> <br>
+        <tfoot><!-- tfoot é usado para criar o rodapé da tabela -->
+            <tr>
+                <td colspan="4">Rodapé da tabela</td> <!-- colspan é usado para definir o número de colunas que a célula deve abranger -->
+            </tr>
+        </tfoot>
+    </table><br><br>
+    <button class="botao"><a href="index.html">Voltar</a></button><br><br>
+    <hr>
+</body>
+</html>

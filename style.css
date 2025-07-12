@@ -1,7 +1,16 @@
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(101, 174, 233);
+ 
+ 
 }
 .titulo {
+  text-align: center; /* text-align: center serve para centralizar o texto */
+  font-size: 30px; /* font-size: 30px serve para definir o tamanho da fonte do título */
+  font-weight: bold; /* font-weight: bold serve para deixar o texto em negrito */
+  color: rgb(0, 0, 0); /* color: rgb(0, 0, 0) serve para definir a cor do texto */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra ao título */
+}
+.hello{
   text-align: center; /* text-align: center serve para centralizar o texto */
   font-size: 30px; /* font-size: 30px serve para definir o tamanho da fonte do título */
   font-weight: bold; /* font-weight: bold serve para deixar o texto em negrito */
@@ -58,12 +67,12 @@ body{
 .negrito {
   font-size: 20px; /* font-size serve para definir o tamanho da fonte do texto em negrito */
 }
-.section1{
+.sesao1{
   float: left;
             width: 50%;
             padding: 15px;
 }
-.section2{
+.sesao2{
   float: left;
             width: 50%;
             padding: 15px;
@@ -77,13 +86,17 @@ body{
   border-radius: 5px; /* border-radius serve para arredondar os cantos do botão */
   cursor: pointer; /* cursor: pointer serve para mudar o cursor quando passar o mouse sobre o botão */
   text-align: center; /* text-align: center serve para centralizar o texto dentro do botão */
-  color: black; /* color serve para definir a cor do texto do botão */
+  color: rgb(8, 1, 1); /* color serve para definir a cor do texto do botão */
   font-size: 15px; /* font-size serve para definir o tamanho da fonte do botão */
   font-weight: bold; /* font-weight serve para definir o peso da fonte do botão */
+  object-position: center; /* object-position: center serve para centralizar o conteúdo dentro do botão */
 }
 .tabela {
   width: 100%; /* width serve para definir a largura da tabela */
   color: #333; /* color serve para definir a cor do texto da tabela */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
 }
 .iframe{
   border: 2px solid black;
@@ -94,35 +107,40 @@ body{
   margin-right: auto; /* margin-right: auto serve para centralizar o iframe horizontalmente */
   padding: 10px; /* padding serve para adicionar espaçamento interno ao iframe */
 }
+.listas {
+  width: 50%; /* width serve para definir a largura da seção de listas */
+  margin-left: auto; /* margin-left: auto serve para centralizar a seção de listas horizontalmente */
+  margin-right: auto; /* margin-right: auto serve para centralizar a seção de listas horizontalmente */
+  padding: 20px; /* padding serve para adicionar espaçamento interno à seção de listas */
+  border: 2px solid black; /* border serve para definir a borda da seção de listas */
+  border-radius: 5px; /* border-radius serve para arredondar os cantos da seção de listas */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra à seção de listas */
+  object-position: center;
+}
 *{
-            box-sizing: border-box;
-        }
-        .header{
-            background-color: gray;
-            padding: 20px;
-            text-align: center;
-        }
-        body {
-            margin: 0;
-        }
-        .menu{
-            background-color: #333;
-            overflow: hidden;
-            text-align: center;
-        }
-        .menu a{
-            color: white;
-            padding: 14px 16px;
-            float: left;
-            display: block; 
-            text-decoration: none; 
-           
-        }
-        .coluna-50 {
-            float: left;
-            width: 50%;
-            padding: 15px;
-        }
-        footer{
-            text-align: center;
-        }
+    box-sizing: border-box;
+}
+.header{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+.menu{
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+    
+
+.coluna-50 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+footer{
+    text-align: center;
+}

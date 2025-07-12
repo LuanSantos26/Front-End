@@ -10,97 +10,33 @@
 </head>
 
 <body>
-    <h1 class="titulo">Teste de HTML</h1>
-    <img class="meme1" src="imagens/meme.png" alt="web meme" />
+    <h1 class="hello">Hello World ! </h1>
+    
+    <img class="meme1" src="imagens/meme.png" alt="web meme" /><br>
     <p><strong>ctrl+k+c</strong> comenta multiplas linhas no codigo,<strong> isso é função do vs code então funciona em outras linguagens</strong></p>
-    <span class="span1">Teste de span</span> <!-- span serve para criar um texto em linha, ele não tem inline-block ou seja ele não pode ter largura e altura definidas -->
-    <nav class="apresentaçao">
-        <h1>Teste de h1 </h1>
-        <a href="/produtos/carros.html">Carros</a><br>
+    <span class="span1">Teste de span</span><br> <!-- span serve para criar um texto em linha, ele não tem inline-block ou seja ele não pode ter largura e altura definidas -->
+    <nav class="apresentaçao"><br>
+        <a href="elementos_de_sitacao.html">Elementos de sitação</a><br>
         <a href="forms.html">Formulário de exemplo</a><br>
         <a href="audio.html">Audio</a><br>
-        <a href="video.html">Iframe</a><br>
-        <a href="semantico.html">Div e HTML semantico</a><br><br>
+        <a href="video.html">Video</a><br>
+        <a href="semantico.html">Div e HTML semantico</a><br>
+        <a href="tabela.html">Tabelas</a><br>
+        <a href="formulario.html">Meu Formulário</a><br>
+        <a href="listas.html">Listas</a><br><br>
     </nav>
     <hr> <!-- Comentário de teste,  cria uma linha horizontal -->
     <nav class="apresentaçao2"> 
         <h2>teste de h2 </h2>
         <p>Outro parágrafo, </p>
-        <a href="formulario.html">Formulário</a>
         <p> <b class="negrito"> texto em negrito</b> </p> <!-- b é usado para criar um texto em negrito, mas não tem semântica, use strong para isso -->
         <a href="/produtos/bicicleta.html" >Bicicletas</a>
      </nav>
      <button class="botao">Clique aqui</button>
      <img class = meme2 src = 'imagens/como-vc-e-burro.jpg' alt = 'meme de como você é burro' />
      <section class="section1">
-        <h1><strong>ELEMENTOS DE CITAÇÃO</strong></h1>
-        <strong>strong cria um texto em negrito, mas na verdade ela da enfase em termos de semantica</strong> 
-        <p>Lorem ipsum dolor sit amet consectetur, <b>badipisicing elit. <br>Modi illo labore vitae sunt,
-        asperiores tempora provident aliquam voluptatem quis cumque et harum tempore. Quisquam esse modi sunt? Totam, adipisci porro!</b></p>
-        <p><i>i cria um texto em itálico, mas não tem semântica</i></p> <!-- em é usado para criar um texto em itálico, mas tem semântica -->
-        <p><em>em cria um texto em itálico, mas tem semântica</em></p> <!-- em é usado para criar um texto em itálico, mas tem semântica -->
-        <p><mark>mark cria um texto em destaque</mark></p> <!-- mark é usado para criar um texto em destaque -->
-        <p><small>small cria texto em tamanho menor</small></p> <!-- small é usado para criar um texto em tamanho menor -->
-        <p><del>del cria texto riscado</del></p> <!-- del é usado para criar um texto riscado -->
-        <p><ins>ins cria um texto inserido</ins></p> <!-- ins é usado para criar um texto inserido -->
-        <p><sub>sub cria um texto em subscrito</sub></p> <!-- sub é usado para criar um texto em subscrito -->
-        <p><u>u cria um texto sublinhado</u></p> <!-- u é usado para criar um texto sublinhado -->
-        <p><sup>sup cria um texto em sobrescrito</sup></p> <!-- sup é usado para criar um texto em sobrescrito -->
-        <p> code cria texto em <code>código</code></p> <!-- code é usado para criar um texto em código, cria palavras mono espaçadas. -->
-        <p><kbd>Texto em teclado, usa kbd .</kbd></p> <!-- kbd é usado para criar um texto em teclado -->
-    </section>
-    <section class="section2">
-        <p><samp>samp cria texto em amostra </samp></p> <!-- samp é usado para criar um texto em amostra -->
-        <p><var>Var cria texto em variavel</var></p> <!-- var é usado para criar um texto em variável -->
-            <p> <abbr title="Lorem Ipsum">Lorem-Texto em abreviação, usa abbr. </abbr></p> <!-- abbr é usado para criar um texto em abreviação -->
-            <bdi dir="ltr">bdi="ltr" é usado para criar texto em direção bidirecional, ltr significa esquerda para direita </bdi> <!-- bdi é usado para criar um texto em direção bidirecional -->
-            <address>Rua Exemplo, 123, usa address</address> <!-- address é usado para criar um texto em endereço -->
-            <p><cite>Texto de citação, usa cite.</cite></p> <!-- cite é usado para criar um texto em citação -->
-            <p><dfn>Texto em definição, dfn.</dfn></p> <!-- dfn é usado para criar um texto em definição -->
-            <p><time>time cria um texto em tempo</time></p> <!-- time é usado para criar um texto em tempo -->
-            <p><q>q cria um texto em citação curta</q></p> <!-- q é usado para criar um texto em citação curta -->
-            <p><address>address cria um texto em endereço</address></p> <!-- address é usado para criar um texto em endereço -->
-            <bdo dir="rtl">bdo cria um texto em direção bidirecional, rtl significa direita para esquerda</bdo> <!-- bdo é usado para criar um texto em direção bidirecional -->
-            <p><s>Texto riscado usa s.</s></p> <!-- s é usado para criar um texto riscado -->
-            <p><samp>Texto em amostra, usa samp.</samp></p> <!-- samp é usado para criar um texto em amostra -->
-            <p><cite>cite cria um texto de citação.</cite></p> <!-- cite é usado para criar um texto de citação -->
-            <p>exemplo de texto blockquote <blockquote>blockquote cria um texto em bloco</blockquote></p> <!-- blockquote é usado para criar um texto em bloco ou sitações        -->
-            <p><pre>pre cria um texto em
-                pré-formatado
-            </pre></p> <!-- pre é usado para criar um texto em pré-formatado -->
-        </section>
-
-    <br>
-    <table class="tabela" width="100%" border="1" class="tabela"> <!-- table é usado para criar uma tabela, width é usado para definir a largura da tabela, border é usado para definir a borda da tabela -->
-        <caption>Tabela de exemplo</caption> <!-- caption é usado para criar um título para a tabela -->
-        <thead><!-- thead é usado para criar o cabeçalho da tabela -->
-            <tr>
-                <th>Coluna 1</th> <!-- th é usado para criar um cabeçalho de tabela -->
-                <th>Coluna 2</th>
-                <th>Coluna 3</th>
-                <th>Coluna 4</th>
-            </tr>
-        </thead>
-        <tbody><!-- tbody é usado para criar o corpo da tabela -->
-            <tr>
-                <td>Dado 1</td> <!-- td é usado para criar uma célula de tabela -->
-                <td>Dado 2</td>
-                <td>Dado 3</td>
-                <td>Dado 4</td>
-            </tr>
-            <tr>
-                <td>Dado 5</td>
-                <td>Dado 6</td>
-                <td>Dado 7</td>
-                <td>Dado 8</td>
-            </tr>
-        </tbody> <br>
-        <tfoot><!-- tfoot é usado para criar o rodapé da tabela -->
-            <tr>
-                <td colspan="4">Rodapé da tabela</td> <!-- colspan é usado para definir o número de colunas que a célula deve abranger -->
-            </tr>
-        </tfoot>
-    </table>
+     <br>
+    
         <br>
         <hr>
         <h2>Listas não Ordenadas</h2>
@@ -118,11 +54,12 @@
             <li>sushi</li>
             <li>salada</li>
         </ol>
+        </section>
     <hr>
     <iframe class="iframe" width="360" height="215" src="https://www.youtube.com/embed/GtL1huin9EE?si=wOZSInFlIotDzbWV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!-- iframe serve para colocar um mini site no seu site --><hr>
     <a class="botao" href="never_gonna.html" target="never_gonna.html"><button>Clique aqui !</button></a><!--target nos links abre outra aba-->
     <footer><!-- Rodapé da página, footer é um elemento semântico que representa o rodapé de uma seção ou página -->
         <p>© 2023 Meu Site. Todos os direitos reservados pela lei M.O = meu ovo.</p>
     </footer>
-    
+    <br><hr>
 </body>
