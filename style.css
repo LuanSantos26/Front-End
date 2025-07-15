@@ -12,7 +12,7 @@ body{
 }
 .hello{
   text-align: center; /* text-align: center serve para centralizar o texto */
-  font-size: 30px; /* font-size: 30px serve para definir o tamanho da fonte do título */
+  font-size: 50px; /* font-size: 30px serve para definir o tamanho da fonte do título */
   font-weight: bold; /* font-weight: bold serve para deixar o texto em negrito */
   color: rgb(0, 0, 0); /* color: rgb(0, 0, 0) serve para definir a cor do texto */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* box-shadow serve para adicionar uma sombra ao título */
